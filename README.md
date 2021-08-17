@@ -1,5 +1,5 @@
 # gdnsapp
-## This project is for making an ISP call "AIS" to be able to work with DuckDNS Add-on in Home Assistant.
+## This project is for making an ISP called "AIS" to be able to work with DuckDNS Add-on in Home Assistant.
 
 ### Instruction
 ### 1) Install GDNSapp.
@@ -35,7 +35,7 @@ e.g. If you want to use port **"5322"**.
 ```
 sudo docker run --name gdns -p 5322:8000 mike28270/gdnsapp:1.0
 ```
-### 2) Check the applicaition.
+### 2) Check the application.
 - Open a browser (e.g. Chrome, Safari or others.)
 - Type a http://[ipaddress]:[port]/[DNS_name]
 e.g. If your server ip is **"192.168.1.10"**, port is **"5114"** and your domain name from AIS Thddns is **"smarthome.thddns.net"**, the URL will be as follow.
