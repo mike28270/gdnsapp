@@ -21,7 +21,7 @@ try {
 	  };
 
 	  function callback(response) {
-	    var str = '';
+			var str = '';
 			var json = '';
 			var data = '';
 
