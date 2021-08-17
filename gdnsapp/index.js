@@ -1,6 +1,6 @@
 const app = require('express')();
 const https = require('https');
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8000;
 
 var host = 'dns.google';
 var url = '';
